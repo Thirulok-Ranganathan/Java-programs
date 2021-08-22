@@ -10,7 +10,7 @@ class students{
 	public static void main(String args[]){
 		students s1=new students();
 		students s2=new students();
-		s1.insertRecord(101,"Drakeus");	  //adding student values in record		
+		s1.insertRecord(101,"Drakeus");	  //insert values in record		
 		s2.insertRecord(102,"Joe");
 		s1.displayInformation();
 		s2.displayInformation();
