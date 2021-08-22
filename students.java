@@ -6,7 +6,7 @@ class students{
 		rollno=r;
 		name=n;
 	}
-	void displayInformation(){System.out.println(rollno+" "+name);}
+	void displayInformation(){System.out.println(rollno+" "+name);}  //Displays all the values in record
 	public static void main(String args[]){
 		students s1=new students();
 		students s2=new students();
